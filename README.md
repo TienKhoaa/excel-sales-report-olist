@@ -3,6 +3,13 @@
 Một file Excel dùng dữ liệu thật của sàn thương mại điện tử Olist (Brazil). Power Query đọc nhiều file CSV, làm sạch và ghép thành một bảng, công thức Excel tính các chỉ số kinh doanh, và một Dashboard có hai ô chọn **tháng** và **khu vực**: chọn xong, toàn bộ thẻ KPI và biểu đồ tự cập nhật.
 
 ![Dashboard](images/dashboard_aug2018.png)
+![Dashboard tháng 11/2017](images/dashboard_nov2017.png)
+
+
+
+https://github.com/user-attachments/assets/eac74cf0-dba4-434c-abdd-e8a13c32871d
+
+
 
 > **Cần Microsoft Excel 365 hoặc 2021 trở lên** (dùng XLOOKUP và các hàm mảng động như UNIQUE, FILTER, SORTBY, TAKE). File mở bằng WPS hoặc Excel bản cũ sẽ không chạy đầy đủ.
 
@@ -60,7 +67,7 @@ Số liệu cho giai đoạn **01/2017 đến 08/2018** (các tháng 2016 và 09
 
 ## Dữ liệu và làm sạch
 
-- Nguồn: **Olist Brazilian E-Commerce Public Dataset** trên Kaggle: [ĐIỀN LINK DATASET VÀO ĐÂY](https://www.kaggle.com). Đây là dữ liệu thật đã ẩn danh. Các file CSV không được đưa lên repo, tải từ Kaggle nếu muốn làm mới.
+- Nguồn: **Olist Brazilian E-Commerce Public Dataset** trên Kaggle: [https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data?select=product_category_name_translation.csv](https://www.kaggle.com). Đây là dữ liệu thật đã ẩn danh. Các file CSV không được đưa lên repo, tải từ Kaggle nếu muốn làm mới.
 - Dùng 6 file: orders, order_items, customers, products, product_category_name_translation, order_reviews.
 
 | Việc làm trong Power Query | Lý do |
