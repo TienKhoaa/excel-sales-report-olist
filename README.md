@@ -1,5 +1,5 @@
-# Báo cáo kinh doanh hàng tháng tự động trên Excel (dữ liệu Olist)
-
+# Olist Sales Reporting Automation
+Báo cáo kinh doanh hàng tháng tự động trên Excel (dữ liệu Olist)
 Một file Excel dùng dữ liệu thật của sàn thương mại điện tử Olist (Brazil). Power Query đọc nhiều file CSV, làm sạch và ghép thành một bảng, công thức Excel tính các chỉ số kinh doanh, và một Dashboard có hai ô chọn **tháng** và **khu vực**: chọn xong, toàn bộ thẻ KPI và biểu đồ tự cập nhật.
 
 ![Dashboard](images/dashboard_aug2018.png)
